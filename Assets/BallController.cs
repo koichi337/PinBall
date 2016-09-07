@@ -4,10 +4,10 @@ using UnityEngine.UI;
 
 public class BallController : MonoBehaviour {
 
-	//ボールが見える可能性のあるz軸の最大値
+	// ボールが見える可能性のあるz軸の最大値
 	private float visiblePosZ = -6.5f;
 
-	//ゲームオーバを表示するテキスト
+	// ゲームオーバを表示するテキスト
 	private GameObject gameoverText;
 
 	// 得点用のUIテキストを格納する変数
